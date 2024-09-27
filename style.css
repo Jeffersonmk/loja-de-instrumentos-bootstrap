@@ -1,0 +1,26 @@
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-link {
+    text-align: center;
+}
+section {
+    height: 100vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.carousel-inner {
+    height: 900px;
+}
+
+#logo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
