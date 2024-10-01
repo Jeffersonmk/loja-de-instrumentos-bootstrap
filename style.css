@@ -1,18 +1,47 @@
 .navbar-nav .nav-link.active {
     color: white;
+    background-color: orange;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, p {
+    color: white;
+}
+
+h2 {
+    padding: 15px;
+}
+
+.nav-link {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+#menu {
+    background-color: rgb(58, 58, 58);
 }
 
 .nav-link {
     text-align: center;
 }
+
 section {
-    height: 100vh;
+    height: auto;
+    padding-top: 120px;
 }
 
 header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 9999; 
 }
 
 .carousel-inner {
@@ -23,4 +52,20 @@ header {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: white;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+}
+
+label {
+    color: white;
+}
+
+.logos img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
