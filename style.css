@@ -7,7 +7,7 @@ body {
     background-color: black;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     color: white;
 }
 
@@ -68,4 +68,62 @@ label {
     height: 40px;
     width: 40px;
     cursor: pointer;
+}
+
+#pagamento {
+    width: auto;
+    height: 30px;
+}
+
+footer {
+    padding-top: 60px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+#copyright {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#email, #telefone {
+    cursor: pointer;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-weight: bold;
+    color: orange;
+}
+
+.btn {
+    height: 60px;
+    width: 260px;
+}
+
+.card-body a {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.btn-laranja {
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
+}
+
+.btn-laranja:hover {
+    background-color: orange;
 }
