@@ -113,7 +113,7 @@ footer a {
     width: 260px;
 }
 
-.card-body a {
+.card-body button {
     font-size: 23px;
     font-weight: bold;
 }
@@ -122,8 +122,20 @@ footer a {
     border-radius: 10px;
     background-color: darkorange;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-laranja i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
 }
 
 .btn-laranja:hover {
     background-color: orange;
+}
+
+#submit-button {
+    height: 40px;
+    width: 80px;
 }

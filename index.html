@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Central do Músico</title>
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,7 +89,9 @@
                                     <h5 class="card-subtitle">R$ 2.728,40 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 287,20 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +104,9 @@
                                     <h5 class="card-subtitle">R$ 7.708,30 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 811,40 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +119,9 @@
                                     <h5 class="card-subtitle">R$ 3.180,60 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 334,80 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +134,9 @@
                                     <h5 class="card-subtitle">R$ 24.616,40 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 2.591,20 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +149,9 @@
                                     <h5 class="card-subtitle">R$ 854,05 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 89,90 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +164,9 @@
                                     <h5 class="card-subtitle">R$ 1.707,15 à vista</h5>
                                     <p class="card-text">ou 10x de R$ 179,70 sem juros</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-laranja">Comprar</a>
+                                        <button class="btn btn-laranja">
+                                            <i class="bi bi-cart"></i> Comprar
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -179,13 +192,15 @@
                                 <input class="form-control" type="text" id="nome"/>
                                 <label class="form-label" for="email">Seu e-mail</label>
                                 <input id="email" type="email" class="form-control"/>
+                                <label class="form-label" for="telefone">Telefone</label>
+                                <input id="telefone" type="text" class="form-control"/>
                                 <label class="form-label" for="nome">Sua mensagem</label>
                                 <textarea class="form-control" id="mensagem"></textarea>
                                 <div class="form-check form-switch">
                                     <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
                                     <input class="form-check-input" type="checkbox" id="aceito-termos">
                                 </div>
-                                <button class="btn btn-success">Enviar</button>
+                                <button id="submit-button" class="btn btn-success">Enviar</button>
                             </form>
                         </div>
                     </div>
@@ -224,5 +239,8 @@
         <p id="copyright">&copy; 2024 Central do Músico. Todos os direitos reservados.</p>
     </footer>
     <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
