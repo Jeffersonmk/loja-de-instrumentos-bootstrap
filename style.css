@@ -136,6 +136,7 @@ footer a {
 }
 
 #submit-button {
+    margin-top: 20px;
     height: 40px;
     width: 80px;
 }

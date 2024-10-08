@@ -81,9 +81,9 @@
                 <h2>Instrumentos</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 mb-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/Bateria Michael.webp" alt="">
+                                <img src="./instrumentos/Bateria Michael.webp" alt="bateria" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Bateria Michael Legacy</h4>
                                     <h5 class="card-subtitle">R$ 2.728,40 à vista</h5>
@@ -96,9 +96,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/guitarra.webp" alt="">
+                                <img src="./instrumentos/guitarra.webp" alt="guitarra" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Guitarra Fender Player</h4>
                                     <h5 class="card-subtitle">R$ 7.708,30 à vista</h5>
@@ -111,9 +111,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/violao.webp" alt="violao">
+                                <img src="./instrumentos/violao.webp" alt="violao" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Violão Yamaha</h4>
                                     <h5 class="card-subtitle">R$ 3.180,60 à vista</h5>
@@ -126,9 +126,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class=" col-lg-4 col-md-6 col-sm-12">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/Contrabaixo.webp" alt="contrabaixo">
+                                <img src="./instrumentos/Contrabaixo.webp" alt="contrabaixo" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Contrabaixo Fender</h4>
                                     <h5 class="card-subtitle">R$ 24.616,40 à vista</h5>
@@ -141,9 +141,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/Violino.webp" alt="violino">
+                                <img src="./instrumentos/Violino.webp" alt="violino" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Violino Infantil</h4>
                                     <h5 class="card-subtitle">R$ 854,05 à vista</h5>
@@ -156,9 +156,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="card text-bg-dark">
-                                <img src="./instrumentos/Banjo.webp" alt="banjo">
+                                <img src="./instrumentos/Banjo.webp" alt="banjo" class="img-fluid">
                                 <div class="card-body">
                                     <h4 class="card-title">Banjo Americano</h4>
                                     <h5 class="card-subtitle">R$ 1.707,15 à vista</h5>
@@ -188,18 +188,18 @@
                     <div class="row">
                         <div class="col">
                             <form>
-                                <label class="form-label" for="nome">Nome</label>
-                                <input class="form-control" type="text" id="nome"/>
+                                <label class="form-label" for="nome-form">Nome</label>
+                                <input class="form-control" name="nome" type="text" id="nome-form"/>
+
                                 <label class="form-label" for="email">Seu e-mail</label>
-                                <input id="email" type="email" class="form-control"/>
+                                <input id="email" name="email" type="email" class="form-control"/>
+
                                 <label class="form-label" for="telefone">Telefone</label>
-                                <input id="telefone" type="text" class="form-control"/>
-                                <label class="form-label" for="nome">Sua mensagem</label>
-                                <textarea class="form-control" id="mensagem"></textarea>
-                                <div class="form-check form-switch">
-                                    <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
-                                    <input class="form-check-input" type="checkbox" id="aceito-termos">
-                                </div>
+                                <input id="telefone" name="telefone" type="text" class="form-control"/>
+
+                                <label class="form-label" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+
                                 <button id="submit-button" class="btn btn-success">Enviar</button>
                             </form>
                         </div>
@@ -211,17 +211,17 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h3>Link Rápidos</h3>
                     <a href="#inicio">Inicio</a>
                     <a href="#instrumentos">Instrumentos</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#contato">Contato</a>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h3>Contato</h3>
-                    <p id="email">Email: centraldamusica@protonmail.com</p>
-                    <p id="telefone">Telefone: +55 31 4002-8922</p>
+                    <p id="email-contato">Email: centraldamusica@protonmail.com</p>
+                    <p id="telefone-contato">Telefone: +55 31 4002-8922</p>
                     <div class="logos">
                         <img src="./logos/facebook.png" alt="facebook">
                         <img src="./logos/instagram.png" alt="instagram">
@@ -229,7 +229,7 @@
                         <img src="./logos/youtube.png" alt="youtube">
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <h3>Formas de Pagamento</h3>
                     <img id="pagamento" src="./logos/formas-pagamento.png" alt="pagamento">
                 </div>
@@ -239,8 +239,10 @@
         <p id="copyright">&copy; 2024 Central do Músico. Todos os direitos reservados.</p>
     </footer>
     <script src="./lib/bootstrap.bundle.min.js"></script>
-    <script src="./js/jquery-3.7.1.min.js.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
