@@ -95,6 +95,12 @@ footer a {
     cursor: pointer;
 }
 
+/* Adiciona margem automática para centralizar os cards horizontalmente */
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-title {
     font-weight: bold;
 }
@@ -139,4 +145,14 @@ footer a {
     margin-top: 20px;
     height: 40px;
     width: 80px;
+}
+
+/* Adiciona uma transição suave ao colapsar e expandir a altura do menu */
+.navbar-collapse {
+    transition: height 0.3s ease;
+}
+
+/* Força o menu a ser exibido quando o colapso está ativo (ou seja, quando o botão de menu é clicado) */
+.navbar-collapse.show {
+    display: black !important;
 }
