@@ -44,10 +44,6 @@ header {
     z-index: 9999; 
 }
 
-.carousel-inner {
-    height: 900px;
-}
-
 #logo {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -156,3 +152,29 @@ footer a {
 .navbar-collapse.show {
     display: black !important;
 }
+
+
+/* Celulares */
+@media (max-width: 576px), (min-width: 577px) and (max-width:767px) {
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+@media (min-width:768px) {
+    #pay {
+        align-items: center;
+    }
+}
+
+
+
