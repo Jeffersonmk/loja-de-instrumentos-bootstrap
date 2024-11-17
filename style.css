@@ -154,6 +154,7 @@ footer a {
 }
 
 
+
 /* Celulares */
 @media (max-width: 576px), (min-width: 577px) and (max-width:767px) {
     .footer-info {
@@ -170,11 +171,18 @@ footer a {
     }
 }
 
-@media (min-width:768px) {
+/* Pequenos desktops */
+@media (min-width:768px) and (max-width:991px) {
     #pay {
-        align-items: center;
+        text-align: center;
+        margin: 0 160px;
+    }
+
+    #pay img {
+        display: block;
     }
 }
+
 
 
 
