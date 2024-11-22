@@ -154,6 +154,12 @@ footer a {
 }
 
 
+#cabecalho .carousel-inner img {
+    width: 1920px;
+    height: 760px;
+    object-fit: cover;
+}
+
 
 /* Celulares */
 @media (max-width: 576px), (min-width: 577px) and (max-width:767px) {
@@ -182,7 +188,3 @@ footer a {
         display: block;
     }
 }
-
-
-
-
